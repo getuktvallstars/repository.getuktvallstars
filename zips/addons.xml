@@ -16,6 +16,48 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.BlueTV"
+	name="[COLORblue]Blue[/COLOR] TV"
+	version="1.0.0"
+	provider-name="Mano">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Chelsea F.C. Links</summary>
+    <description lang="en">.</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.feedyourmind"
+	name="Feed Your Mind"
+	version="1.0"
+	provider-name="The Brain Child">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Docs from YT</summary>
+    <description lang="en">Docs from YT</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website></website>
+  </extension>
+</addon>
+
 <addon id="plugin.video.learnlanguageallstars"
 	name="Learn a New Language with UKTV Allstars"
 	version="1.0"
@@ -34,6 +76,27 @@
     <platform>all</platform>
     <forum>n/a</forum>
     <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.musictube"
+	name="Music Tube"
+	version="1.0"
+	provider-name="The Brain Child">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Music Videos</summary>
+    <description lang="en">Music Videos</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website></website>
   </extension>
 </addon>
 
@@ -56,6 +119,22 @@
     <forum>n/a</forum>
     <website>n/a</website>
   </extension>
+</addon>
+
+<addon id="plugin.video.serendipity" name="Serendipity" version="0.0.1" provider-name="Gracie">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Assortment of Requested Items</summary>
+		<description lang="en">I do not own any of this content</description>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="plugin.video.usbwizard" name=".Backup Restore WIZARD" version="1.2.8" provider-name="LittleWiz">
