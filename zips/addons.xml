@@ -95,6 +95,28 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.highnoon" name="High Noon" version="0.0.5" provider-name="GIGI">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">All Western Content</summary>
+		<description lang="en">We do not own or host any content</description>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+		<news></news>
+		<genre>western,usa</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
+
 <addon id="plugin.video.kidsnation" name="Kids Nation" version="0.0.4" provider-name="MuadDib">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -111,6 +133,26 @@
     <genre>kids</genre>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="plugin.video.knockout" name="Knock Out" version="0.0.3" provider-name="GIGI">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">A compile of every boxing match since early 1900's</summary>
+		<description lang="en">A boxing fans dream</description>
+		<platform>all</platform>
+		<news></news>
+		<genre>sports,usa</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
 </addon>
 
 <addon id="plugin.video.learnlanguageallstars"
