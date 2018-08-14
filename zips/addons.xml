@@ -254,6 +254,19 @@
   </extension>
 </addon>
 
+<addon id="repository.gehosting" name="[COLOR dodgerblue]Global Entertainment repository[/COLOR]" version="1.7" provider-name="GE Hosting">
+	<extension point="xbmc.addon.repository" name="Global Entertainment repository">
+		<info compressed="false">https://global.gemedia.appboxes.co/files/addons.xml</info>
+		<checksum>https://global.gemedia.appboxes.co/files/addons.xml.md5</checksum>
+		<datadir zip="true">https://global.gemedia.appboxes.co/files/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.getuktvallstars" name="Get UKTV Allstars Repo" version="0.0.1" provider-name="UKTV Allstars">
 	<extension point="xbmc.addon.repository" name="Get UKTV Allstars Repository">
 		<dir>
