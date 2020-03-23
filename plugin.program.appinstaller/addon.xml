@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.appinstaller" name="[COLOR aqua]App installer[/COLOR]" version="0.3.1" provider-name="Kod1">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">App installer - Kodi 18 Compatible</summary>
+    <description lang="en">App installer for Android and Fire devices
+[CR]These groups where made in response to facebook shutting groups down
+[CR]JAYNE &amp; DENIS MEDIA SUPPORT
+[CR]http://band.us/@kod1support
+[CR]KOD1 MOVIES/TV &amp; CHAT
+[CR]http://band.us/@kod1moviegroup
+[CR]KOD1 SPORTS
+[CR]http://band.us/@kod1sportsgroup
+[CR]Website
+[CR]https://kod1help.com
+[CR]Thanks to Aftermath</description>
+    <platform>all</platform>
+  </extension>
+</addon>
